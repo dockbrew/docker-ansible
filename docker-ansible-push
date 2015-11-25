@@ -1,0 +1,2 @@
+#!/bin/sh
+docker run --rm -v $PWD:/blog:rw killerwolf/ansible:1.9.2 ansible-push $@
